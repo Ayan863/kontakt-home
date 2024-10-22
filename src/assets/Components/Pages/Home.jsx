@@ -95,7 +95,7 @@ const Home = () => {
       {/* <Slider /> */}
        <div className="super-teklifler relative z-40">
        <p className="w-[95%] m-auto text-[20px] text-[Montserrat,sans-serif] font-semibold p-4 ">Super təkliflər</p>
-      <Carousel url="https://66eba56d2b6cf2b89c5b2e2d.mockapi.io/otherProduct"/> 
+      <SliderApi url="https://66eba56d2b6cf2b89c5b2e2d.mockapi.io/otherProduct"/> 
        </div>
       <p className="w-[95%] m-auto text-[20px] text-[Montserrat,sans-serif] font-semibold p-4">Mövsüm təklifləri</p>
 

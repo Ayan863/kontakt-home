@@ -34,7 +34,7 @@ const Card = ({ image, title, firstPrice, lastPrice, sale }) => {
             <div className="bg-gray-300 p-2 rounded-full">
               <FaBalanceScale />
             </div>
-            <button className="bg-red-500 text-white p-2 rounded-lg active:bg-green-500 flex items-center">
+            <button className="bg-red-500 w-100% text-white p-1 rounded-lg active:bg-green-500 flex items-center">
               <FaCartShopping />
               <span className="ml-2">Add to basket</span>
             </button>
